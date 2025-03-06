@@ -6,7 +6,7 @@ Helm's [documentation](https://helm.sh/docs) to get started.
 Once Helm has been set up correctly, add the repo as follows:
 
 ```shell
-helm repo add raghu-manne https://raghu-manne.github.io/helm-repo-gh-pages
+helm repo add raghu-manne https://helm-charts.raghumanne.com
 ```
 
 If you had already added this repo earlier, run `helm repo update` to retrieve
@@ -15,7 +15,7 @@ raghu-manne` to see the charts.
 
 To install the this chart:
 
-    helm install my-release raghu-manne/my-release
+    helm install my-release raghu-manne/dummy-chart
 
 To uninstall the chart:
 
